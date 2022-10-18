@@ -45,7 +45,8 @@
     color: white;
     font-family: "Lato", sans-serif;
     text-align: center;
-    left: 675px;
     top: 180px;
     font-size: 30px;
+    margin: auto;
+    width: 100%;
   }
