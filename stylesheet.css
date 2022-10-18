@@ -1,0 +1,51 @@
+.navigation {
+    background-color: orangered;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 9;
+    margin: 0px;
+  }
+  
+  .navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 10;
+    font-family: "Lato";
+  }
+  
+  .navigation a:hover {
+    background-color: white;
+    color: black;
+    z-index: 10;
+  }
+  
+
+  .navigation a.active {
+    background-color: white;
+    color: black;
+    z-index: 10;
+  }
+
+  .heading1 {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    left: 0px;
+  }
+
+  .txthead1 {
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    left: 675px;
+    top: 180px;
+    font-size: 30px;
+  }
