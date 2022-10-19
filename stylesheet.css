@@ -36,11 +36,9 @@
     top: 0px;
     z-index: 1;
     left: 0px;
-    width: 99%;
-    height: 45%;
-    filter: blur(5px); 
-    vertical-align: top;
-    margin: 0px;
+    width: 100%;
+    height: 500px;
+    filter: blur(5px);
   }
 
   .txthead1 {
