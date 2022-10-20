@@ -1,3 +1,8 @@
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
 .navigation {
     background-color: orangered;
     overflow: hidden;
@@ -33,13 +38,15 @@
   }
 
   .heading1 {
-    position: absolute;
-    top: 0px;
+    position: relative;
+    top: -155px;
     z-index: 1;
-    left: 0px;
+    right: 0px;
     width: auto;
     height: 500px;
     margin: 0px;
+    margin-left: -1%;
+    margin-right: -0.7%;
     overflow: hidden;
   }
 
@@ -57,7 +64,7 @@
   .ltitle {
     position: relative;
     color: black;
-    top: 400px;
+    top: -110px;
     font-family: "Lato", sans-serif;
     font-size: 30px;
     text-align: left;
