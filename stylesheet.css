@@ -4,7 +4,7 @@ body {
 }
 
 .navigation {
-    background-color: orangered;
+    background-color: rgb(255, 127, 80);
     overflow: hidden;
     top: 0px;
     left: 0px;
