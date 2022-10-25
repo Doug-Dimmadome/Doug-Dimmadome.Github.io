@@ -13,7 +13,7 @@ body {
     margin: 0px;
   }
   
-  .navigation a {
+.navigation a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -24,20 +24,20 @@ body {
     font-family: "Lato";
   }
   
-  .navigation a:hover {
+.navigation a:hover {
     background-color: white;
     color: black;
     z-index: 10;
   }
   
 
-  .navigation a.active {
+.navigation a.active {
     background-color: white;
     color: black;
     z-index: 10;
   }
 
-  .heading1 {
+.heading1 {
     position: relative;
     top: -155px;
     z-index: 1;
@@ -47,7 +47,7 @@ body {
     overflow: hidden;
   }
 
-  .txthead1 {
+.txthead1 {
     position: relative;
     z-index: 3;
     color: white;
@@ -58,7 +58,7 @@ body {
     width: 100%;
   }
 
-  .ltitle {
+.ltitle {
     position: relative;
     color: rgb(80,80,80);
     top: -110px;
@@ -67,12 +67,19 @@ body {
     text-align: left;
     margin-left: auto;
     margin-top: 0px;
+    margin-bottom: 10px;
     opacity: 0.8;
 }
 
-  .fpar {
+.fpar {
     position: relative;
     top: -125px;
     font-size: 15px;
     font-family: "Lato", sans-serif;
+  }
+p {
+    color: rgb(80,80,80);
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+
   }
