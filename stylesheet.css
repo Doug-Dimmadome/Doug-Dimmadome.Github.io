@@ -73,13 +73,8 @@ body {
 
 .fpar {
     position: relative;
-    top: -125px;
+    top: -25px;
     font-size: 15px;
     font-family: "Lato", sans-serif;
   }
-p {
-    color: rgb(80,80,80);
-    font-size: 15px;
-    font-family: "Lato", sans-serif;
 
-  }
