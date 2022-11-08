@@ -31,7 +31,7 @@ body {
 }
 
 
-.navigation a:active {
+.navigation a.active {
   background-color: white;
   color: black;
   z-index: 10;
