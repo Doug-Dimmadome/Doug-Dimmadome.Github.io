@@ -1,41 +1,39 @@
 body {
     overflow-x: hidden;
     overflow-y: scroll;
+    margin: 0px;
 }
 
-.navigation {
-    background-color: rgb(255, 127, 80);
-    overflow: hidden;
-    top: 0px;
-    left: 0px;
-    position: fixed;
-    z-index: 9;
-    margin: 0px;
-  }
-  
-.navigation a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 20px;
-    z-index: 10;
-    font-family: "Lato";
-  }
-  
-.navigation a:hover {
-    background-color: white;
-    color: black;
-    z-index: 10;
-  }
-  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(225, 127, 80);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-.navigation a.active {
-    background-color: white;
-    color: black;
-    z-index: 10;
-  }
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(225, 127, 80);
+}
+
+.active {
+  background-color: white;
+}
 
 .heading1 {
     position: relative;
