@@ -83,4 +83,8 @@ body {
   float: right;
   right: 0px;
   z-index: 5;
+  margin-right: 0px;
+  width: 30%;
+  height: auto;
+  top: -100px;
 }
