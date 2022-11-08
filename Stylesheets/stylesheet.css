@@ -77,3 +77,7 @@ body {
   font-size: 15px;
   font-family: "Lato", sans-serif;
 }
+
+.image {
+  float: right;
+}
