@@ -45,6 +45,7 @@ body {
   margin-left: -1%;
   margin-right: -0.7%;
   overflow: hidden;
+  filter: blur(3px);
 }
 
 .txthead1 {
