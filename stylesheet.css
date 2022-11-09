@@ -84,9 +84,9 @@ body {
   right: 0px;
   z-index: 5;
   margin-right: 0px;
-  width: 200px;
+  width: 30px;
   height: auto;
-  top: -200px;
+  top: -400px;
   overflow: hidden;
-  left: -75px;
+  left: -150px;
 }
