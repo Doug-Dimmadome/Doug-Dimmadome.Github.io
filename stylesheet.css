@@ -80,11 +80,12 @@ body {
 
 .fimage {
   position: relative;
-  float: inline-end;
   z-index: 5;
   margin-right: 10px;
+  resize: both;
   width: 100px;
   height: 50px;
   top: -400px;
+  left: 100px;
   
 }
