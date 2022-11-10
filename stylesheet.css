@@ -84,5 +84,6 @@ body {
   z-index: 5;
   margin-right: 10px;
   top: -275px;
-  left: -50%;
+  float: right;
+  right: 15%;
 }
