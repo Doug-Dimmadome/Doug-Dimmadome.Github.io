@@ -106,6 +106,7 @@ body {
   position: relative;
   z-index: 5;
   margin-left: -10px;
+  margin-right: 10px;
   top: -170px;
   float: left;
   padding-left: 50px;
