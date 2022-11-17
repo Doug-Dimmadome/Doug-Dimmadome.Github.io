@@ -92,8 +92,8 @@ body {
   overflow: hidden;
   position: relative;
   z-index: 5;
-  margin-left: 10px;
-  top: 150px;
+  margin-left: -10px;
+  top: -150px;
   float: left;
   left: 20%;
   padding-left: 50px;
