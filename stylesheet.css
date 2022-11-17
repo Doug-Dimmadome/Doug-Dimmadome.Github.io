@@ -93,7 +93,8 @@ body {
   position: relative;
   z-index: 5;
   margin-left: 10px;
-  top: -275px;
+  top: 275px;
   float: left;
-  left: 15%;
+  left: 25%;
+  padding-left: 50px;
 }
