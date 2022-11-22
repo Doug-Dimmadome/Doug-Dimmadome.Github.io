@@ -119,3 +119,8 @@ body {
   float: left;
   padding-left: 50px;
 }
+
+#sf_image {
+  height: 75%;
+  width: 75%;
+}
