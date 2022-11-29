@@ -104,9 +104,9 @@ body {
   position: relative;
   z-index: 5;
   margin-right: 10px;
-  top: -275px;
-  float: right;
-  right: 15%;
+  top: -330px;
+  left: 45%;
+  margin-bottom: 0px;
 }
 
 .fimage_l {
@@ -129,4 +129,25 @@ body {
   float: right;
   height: 40%;
   width: 40%;
+}
+
+.stitle {
+ position: absolute;
+  z-index: 1;
+  top: 960px;
+  left: 55%;
+}
+
+.spar {
+  position: absolute;
+  z-index: 1;
+  top: 1040px;
+ left: 55%;
+}
+
+.simage {
+  position: absolute;
+  z-index: 20;
+  left: 50px;
+  top: 1000px;
 }
